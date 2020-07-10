@@ -7,15 +7,3 @@
 * [Matriz](https://github.com/computersciencebr/algoritmo/tree/master/src/5-matrix)
 * [Função](https://github.com/computersciencebr/algoritmo/tree/master/src/6-function)
 * [Manipulação de arquivo](https://github.com/computersciencebr/algoritmo/tree/master/src/7-file)
-
-## Projetos
-* [Jogo de adivinhação](#)
-* [Jogo de força](#)
-* [Jogo de Foge-foge](#)
-* [Jogo da velha - Tic Tac Toe](#)
-* [Verificador de CPF](#)
-* [2048](#)
-* [Campo minado](#)
-* [Sudoku](#)
-* [Snake](#)
-* [Batalha naval](#)
