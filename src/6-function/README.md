@@ -67,3 +67,8 @@ Exemplos:
 * [Python](https://github.com/computersciencebr/algoritmo/tree/master/src/6-function/python/matriz-multiplicacao.py)
 
 ### Cifra de César
+#### Solução 
+
+### Jogo da velha
+#### Solução
+* [Pascal](https://github.com/computersciencebr/algoritmo/tree/master/src/6-function/pascal/jogo-da-velha.pas)

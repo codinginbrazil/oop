@@ -1,11 +1,5 @@
- 
-{
-	Tabuada
-}
-
 program tabuada;
-const 
-	MAX = 10;
+const MAX = 10;
 var
 	numero : integer;
 	cont : integer;

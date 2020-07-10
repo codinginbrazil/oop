@@ -7,6 +7,11 @@ Faça um programa que peça um valor e mostre na tela se o valor é positivo ou 
 ### Número primo
 Faça um programa que exiba verdadeiro se o número for primo (falso caso contrário)
 
+### Tipo de triângulo
+Pedir os valores dos catetos e hipotenusa, por intermédio deles informar se o triângulo é equilátero; isóscele; escaleno 
+#### Solução
+> [Pascal](https://github.com/computersciencebr/algoritmo/tree/master/src/2-selection-structures/pascal/triangulo.pas)
+
 ### Energia elétrica
 Calcule o valor da fatura do cliente, por intermédio do consumo em Kw/H e a categoria de consumo, sendo:
 * residencial =  consumo em KwH * 0.6);
@@ -23,6 +28,13 @@ Perguntar a idade do usuário e verificar se ele pode votar, de acordo com segui
 #### Solução
 > [Pascal](https://github.com/computersciencebr/algoritmo/tree/master/src/2-selection-structures/pascal/votar.pas)
 
+### Mini Calculadora
+> [Pascal](https://github.com/computersciencebr/algoritmo/tree/master/src/2-selection-structures/pascal/minicalculadora.pas)
+
+### Cálculo de churrasco
+#### Solução
+> [Pascal](https://github.com/computersciencebr/algoritmo/tree/master/src/2-selection-structures/pascal/churrasco.pas)
+
 ### Cálculo de peso ideal
 Leia altura, sexo e peso de uma pessoa, construa um algoritmo que calcule seu peso ideal.  
 Informe se o peso da pessoa está dentro, acima ou abaixo do peso 
@@ -32,6 +44,14 @@ Utilizando as seguintes fórmulas:
 * Para mulheres: peso - (62.1*h) - 44.7
 #### Solução
 > [Julia](https://github.com/computersciencebr/algoritmo/tree/master/src/2-selection-structures/julia/peso-ideal.jl)
+
+### Reajuste salarial
+#### Solução
+> [Pascal](https://github.com/computersciencebr/algoritmo/tree/master/src/2-selection-structures/pascal/reajuste-salarial.pas)
+
+### Salário de Professor
+#### Solução
+> [Pascal](https://github.com/computersciencebr/algoritmo/tree/master/src/2-selection-structures/pascal/salario-prof.pas)
 
 ### Comissão de vendas
 Dado o salário fixo, o valor das vendas efetuadas pelo vendedor de uma empresa e sabendo-se que ele recebe uma comissão de 3% sobre o total das vendas até R$ 1.500,00 e 5% sobre o que ultrapassar este valor, calcular e escrever o seu salário total.
@@ -64,3 +84,4 @@ Escrever um algoritmo que leia um valor e calcule qual o menor número possível
 moedas de 100, 50, 20, 10, 5, 2 e 1 em que o valor lido pode ser decomposto. 
 Escrever o valor lido e a relação de notas necessárias.
 #### Solução em:
+
