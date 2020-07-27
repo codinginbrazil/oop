@@ -5,6 +5,7 @@ Faça um programa que some dois valores e exiba o resultado
 #### Solução em:
 > [Julia](https://github.com/computersciencebr/algoritmo/tree/master/src/1-sequential-structures/julia/soma.jl),
  [Pascal](https://github.com/computersciencebr/algoritmo/tree/master/src/1-sequential-structures/pascal/soma.pas)
+ [Python](https://github.com/computersciencebr/algoritmo/tree/master/src/1-sequential-structures/python/soma.py)
 
 ### Somatório de idade
 Uma criança quer saber qual é a soma de todas as idades que ela já teve. Elaborar programa que lê
@@ -19,13 +20,13 @@ Leia um número inteiro e imprima o seu antecedente e o seu sucessor.
 
 ###  Converter unidades
 Faça um programa que converta uma medida de metros para centímetros. 
-> [Julia](https://github.com/computersciencebr/algoritmo/tree/master/src/1-sequential-structures/julia/metroToCm.jl)
+> [Julia](https://github.com/computersciencebr/algoritmo/tree/master/src/1-sequential-structures/julia/metro2cm.jl)
 
 ### Quadrado: área e perímetro
 Faça um programa em que receba (entrada de dados) o valor correspondente ao lado de um quadrado, calcule e imprima (saída de dados) seu perímetro e sua área.
 #### Solução em:
 > [Julia](https://github.com/computersciencebr/algoritmo/tree/master/src/1-sequential-structures/julia/quadrado.jl),
-> [Python](https://github.com/computersciencebr/algoritmo/tree/master/src/1-sequential-structures/python/quadrado.pas)
+> [Python](https://github.com/computersciencebr/algoritmo/tree/master/src/1-sequential-structures/python/quadrado.py)
 
 ### Área do círculo
 Leia o raio e a circunferência. Cálculo de área de um círculo
@@ -47,6 +48,7 @@ Considerar ano com 365 dias e mês com 30 dias.
 Implemente um programa que lê três valores e calcule a média
 #### Solução em:
 > [Pascal](https://github.com/computersciencebr/algoritmo/tree/master/src/1-sequential-structures/pascal/media.pas)
+[Python](https://github.com/computersciencebr/algoritmo/tree/master/src/1-sequential-structures/python/media.py)
 
 ### Média Ponderada
 Implemente um programa que lê três valores e calcule a média ponderada para pesos 1, 2 e 3, respectivamente (multiplique cada nota pelo seu peso, some os produtos e divida o resultado pela soma dos pesos).
@@ -93,3 +95,32 @@ faça um programa q receba o preço do produto e mostre o valor de venda.
 sabe-se que o preço de custo receberá um acrescimo de acordo com um percentual informado pelo usuario.
 #### Solução em:
 > [Pascal](https://github.com/computersciencebr/algoritmo/tree/master/src/1-sequential-structures/pascal/comissao-produto.pas)
+
+### Fatura
+Escreva um programa que receba
+(entrada de dados através do teclado)
+o nome do cliente, o dia de vencimento,
+o mês de vencimento e o valor da fatura
+e imprima (saída de dados) a mensagem com os dados recebidos,
+o mesmo formato da mensagem acima.
+Note que o programa imprime a saída em duas linhas diferentes.
+Note também que, como não é preciso realizar cálculos,
+o valor não precisa ser convertido para número,
+pode ser tratado como texto.
+
+Exemplo:
+
+Entrada
+
+Digite o nome do cliente: Fulano de Tal
+Digite o dia de vencimento: 9
+Digite o mês de vencimento: Janeiro
+Digite o valor da fatura: 350,00
+
+Saida
+
+Olá, Fulano de Tal
+A sua fatura com vencimento em 9 de Janeiro no valor de R$ 350,00 está fechada.
+
+#### Solução em:
+> [Python](https://github.com/computersciencebr/algoritmo/tree/master/src/1-sequential-structures/python/fatura.py)

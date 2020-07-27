@@ -1,18 +1,16 @@
+program areaCirculo;
 {
 	Cálculo de área de um círculo
 		* Pedir raio e circunferência
 }
-
-program areaCirculo;
+const PI := 3.1415;
 var
 	area : real;
-	pi : real;
 	raio : real;
 begin
-	pi := 3.1415;
 	writeln('Informe o raio');
 	readln(raio);
 	
-	area := pi*(raio*raio);
+	area := PI*(raio*raio);
 	writeln('A area:',area:3:2);
 end.

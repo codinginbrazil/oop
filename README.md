@@ -7,6 +7,10 @@
 * [Matriz](https://github.com/computersciencebr/algoritmo/tree/master/src/5-matrix)
 * [Função](https://github.com/computersciencebr/algoritmo/tree/master/src/6-function)
 * [Manipulação de arquivo](https://github.com/computersciencebr/algoritmo/tree/master/src/7-file)
+* [Lista](https://github.com/computersciencebr/algoritmo/tree/master/src/8-list)
+* [Conjunto](https://github.com/computersciencebr/algoritmo/tree/master/src/9-set)
+* [Dicionário](https://github.com/computersciencebr/algoritmo/tree/master/src/10-dictionary)
+* [Exceção](https://github.com/computersciencebr/algoritmo/tree/master/src/11-except)
 
 ## Projetos
 * [Jogo de adivinhação](#)
