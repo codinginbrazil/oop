@@ -85,7 +85,10 @@ moedas de 100, 50, 20, 10, 5, 2 e 1 em que o valor lido pode ser decomposto.
 Escrever o valor lido e a relação de notas necessárias.
 #### Solução em:
 
-### Segundos para dia
+
+# -*- coding: utf-8 -*-"
+
+'''
 Desafio do vídeo "Entrada de Dados": Reescreva o programa conta
 Segundos para imprimir também a quantidade de dias,
 ou seja, faça um programa em Python que dada a quantidade de segundos,
@@ -97,73 +100,45 @@ Abaixo um exemplo de como deve ser a entrada e saída de dados do programa:
 Exemplo:
 
 Entrada de Dados:
-
 Por favor, entre com o número de segundos que deseja converter: 178615
 
 Saída de Dados:
-
 2 dias, 1 horas, 36 minutos e 55 segundos.
+'''
 
-#### Solução em:
- > [Python](https://github.com/computersciencebr/algoritmo/tree/master/src/2-selection-structures/python/second2day.py)  
+second = float(input('Por favor, entre com o número de segundos que deseja converter:'))
 
+day = second//86400
 
-### Dezena
-Faca um programa em Python que recebe um número inteiro e imprime seu dígito das dezenas.
-Observe o exemplo abaixo:
+if (day - second/86400) != 0 :
 
-Exemplo 1:
+    hour = day - second/86400
 
-Entrada de Dados:
+    if hour < 0 :
+        hour = -1 * hour
 
-Digite um número inteiro: 78615
+    hour = hour * 24
+    hour = hour//1
 
-Saída de Dados:
+    if (hour- (day - second/86400)*24) != 0 :
 
-O dígito das dezenas é 1
+        if ((day - second/86400)*24) < 0 :
+            minute = (hour + (day - second/86400)*24)
+        else:
+            minute = (hour - (day - second/86400)*24)
 
-Exemplo 2:
+        if minute < 0 :
+            minute = (-1 * minute) *60
 
-Entrada de Dados:
+        temp = minute
+        minute = minute//1
 
-Digite um número inteiro: 2
+        temp = minute - temp
 
-Saída de Dados:
+        if temp < 0 :
+            temp = -1 * temp
 
-O dígito das dezenas é 0
+        if temp != 0 :
+            temp = (temp * 60)//1
 
-Dica: O operador "//" faz uma divisão inteira jogando fora o resto,
-ou seja, aquilo que é menor que o divisor.
-O operador "%" devolve apenas o resto da divisão inteira jogando fora o resultado,
-ou seja, tudo que é maior ou igual ao divisor.
-
-#### Solução em:
- > [Python](https://github.com/computersciencebr/algoritmo/tree/master/src/2-selection-structures/python/dezena.py)  
-
-
-### Equação do segundo grau
-
-programa deve receber os parâmetros a, b, e c da equação ax2+bx+c, respectivamente,
-e imprimir o resultado na saída da seguinte maneira:
-
-Quando não houver raízes reais imprima:
-
-esta equação não possui raízes reais
-
-Quando houver apenas uma raiz real imprima:
-
-a raiz desta equação é X
-
-onde X é o valor da raiz
-
-Quando houver duas raízes reais imprima:
-
-as raízes da equação são X e Y
-
-onde X e Y são os valor das raízes.
-
-Além disso, no caso de existirem 2 raízes reais, elas devem ser impressas em ordem crescente,
-ou seja, X deve ser menor ou igual a Y.
-
-#### Solução em:
- > [Python](https://github.com/computersciencebr/algoritmo/tree/master/src/2-selection-structures/python/segundo_grau.py)  
+print(int(day),"dias,",int(hour),"horas,",int(minute),"minutos e",int(temp),"segundos.")
